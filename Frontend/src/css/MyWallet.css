@@ -1,0 +1,67 @@
+.wallet-container {
+    background-color: #f8f9fa;
+  }
+  
+  .form-card {
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 1em;
+  }
+  
+  .bg-color {
+    background-color: #007bff; /* Primary color */
+  }
+  
+  .text-color {
+    color: #333333;
+  }
+  
+  .custom-bg-text {
+    color: #ffffff;
+  }
+  
+  .animated {
+    animation-duration: 0.6s;
+    animation-fill-mode: both;
+  }
+  
+  .fadeIn {
+    animation-name: fadeIn;
+  }
+  
+  .fadeInUp {
+    animation-name: fadeInUp;
+  }
+  
+  .bounceInDown {
+    animation-name: bounceInDown;
+  }
+  
+  .bounceInUp {
+    animation-name: bounceInUp;
+  }
+  
+  .pulse {
+    animation-name: pulse;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translate3d(0, 100%, 0);
+    }
+    to {
+      opacity: 1;
+      transform: none;
+    }
+  }
+  
+  

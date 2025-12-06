@@ -1,0 +1,101 @@
+h5{
+    font-size: 2rem;
+    font-weight: 900;
+}
+
+
+/* General Container Styles */
+.container-fluid {
+    padding: 0;
+  }
+  
+  .mt-5 {
+    margin-top: 3rem;
+  }
+  
+  .mb-4 {
+    margin-bottom: 2rem;
+  }
+  
+  .mb-3 {
+    margin-bottom: 1rem;
+  }
+  
+  .mx-4 {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+  
+  /* Header Styling */
+  h5.animated-text {
+    animation: fadeInUp 1s ease-in-out;
+  }
+  
+  /* Form Styles */
+  .animated-form {
+    animation: fadeIn 1s ease-in-out;
+  }
+  
+  .form-control {
+    border-radius: 0.5rem;
+  }
+  
+  .btn {
+    border-radius: 0.25rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Button Hover Effects */
+  .btn:hover {
+    background-color: #5a5a5a; /* Adjust this color for hover effect */
+  }
+  
+  /* Service Card Styles */
+  .row-cols-lg-3 .col {
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .row-cols-lg-3 .col:hover {
+    transform: scale(1.02);
+  }
+  
+  /* Carousel Styles */
+  .carousel {
+    margin-bottom: 2rem;
+  }
+  
+  /* Keyframe Animations */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .row-cols-md-2 {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .row-cols-1 {
+      font-size: 0.875rem;
+    }
+  }
+  

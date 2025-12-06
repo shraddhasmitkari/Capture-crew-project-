@@ -1,0 +1,71 @@
+/* AddServiceForm.css */
+
+/* General Styles */
+.container {
+    margin-top: 20px;
+  }
+  
+  .card {
+    border-radius: 10px;
+  }
+  
+  .card-header {
+    border-radius: 10px 10px 0 0;
+    background-color: #6a0dad; /* Purple color */
+    color: white; /* White text color */
+  }
+  
+  .form-control {
+    border-radius: 5px;
+    border: 1px solid #6a0dad; /* Purple border for inputs */
+  }
+  
+  .btn {
+    border-radius: 5px;
+    background-color: #6a0dad; /* Purple background color */
+    color: white; /* White text color */
+  }
+  
+  .btn:hover {
+    background-color: #5a0c9e; /* Darker purple on hover */
+  }
+  
+  /* Error Message Styling */
+  .text-danger {
+    font-size: 0.875rem;
+    margin-top: 0.25rem;
+    color: #d9534f; /* Red color for error messages */
+  }
+  
+  /* Animation */
+  .animate__animated {
+    animation-duration: 1s;
+  }
+  
+  .animate__fadeIn {
+    animation-name: fadeIn;
+  }
+  
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .col-md-6,
+    .col-md-12 {
+      width: 100% !important;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .card {
+      margin: 0 10px;
+    }
+  }
+  

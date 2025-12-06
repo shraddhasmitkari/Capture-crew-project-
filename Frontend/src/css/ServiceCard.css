@@ -1,0 +1,52 @@
+/* ServiceCard.css */
+
+/* Basic card styles */
+.job-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+    text-decoration: none; /* Ensure link text decoration is removed */
+  }
+  
+  .job-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Card body styles */
+  .card-body {
+    padding: 1rem;
+  }
+  
+  .card-title {
+    color: #333; /* Use default color for text */
+  }
+  
+  .card-text {
+    color: #555; /* Use default color for text */
+  }
+  
+  /* Image styling */
+  .card-img-top {
+    object-fit: cover;
+    max-height: 150px;
+  }
+  
+  /* Responsive design */
+  @media (max-width: 768px) {
+    .job-card {
+      width: 100%;
+    }
+  }
+  
+  @media (min-width: 769px) and (max-width: 992px) {
+    .job-card {
+      width: 100%;
+    }
+  }
+  
+  @media (min-width: 993px) {
+    .job-card {
+      width: 100%;
+    }
+  }
+  
