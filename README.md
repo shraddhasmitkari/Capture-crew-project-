@@ -130,13 +130,6 @@ Please follow existing code style and add tests for critical logic.
 
 ---
 
-## ⚠️ Notes & Recommendations
-- Keep JWT secret and Razorpay keys secure (env vars / vault).  
-- Use Flyway/Liquibase for schema migrations in production.  
-- Lock down CORS, add rate limiting and security headers for production.
-
----
-
 ## 📫 Contact
 Maintainer: shraddhasmitkari  
 Repo: https://github.com/shraddhasmitkari/Capture-crew-project-/
