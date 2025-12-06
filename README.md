@@ -22,7 +22,7 @@
 - ✅ Role-Based Access Control (RBAC)  
 - ✅ Detailed Logging with Log4j2  
 - ✅ Photographer Listings & Booking System  
-- ✅ Admin Dashboard for Monitoring Users & Bookings
+- ✅ Admin Dashboard for Monitoring Users & Bookings.
 
 ---
 
@@ -136,4 +136,4 @@ Repo: https://github.com/shraddhasmitkari/Capture-crew-project-/
 
 ---
 
-<p align="center">Made with ❤️ — CaptureCrew</p>
+<p align="center">Made with — CaptureCrew</p>
